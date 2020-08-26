@@ -76,4 +76,8 @@ subprojects {
             showStandardStreams = true
         }
     }
+    dependencies {
+        // https://mvnrepository.com/artifact/com.google.code.findbugs/jsr305
+        implementation 'com.netflix.servo:servo-core:0.13.0'
+    }
 }
